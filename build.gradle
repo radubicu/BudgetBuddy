@@ -101,3 +101,7 @@ asciidoctor {
 	inputs.dir snippetsDir
 	dependsOn test
 }
+springBoot {
+    mainClassName = 'com.example.service.BudgetBuddyApplication'
+}
+
